@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        tr:hover{
+            background-color: rgb(216, 168, 216);
+        }
+        tbody > tr:nth-child(odd){
+            background-color: rgb(223, 202, 202);
+        }
+    </style>
+</head>
+<body>
+    <table border="5px">
+        <thead>
+            <th>Employee ID</th>
+            <th>Fullname</th>
+            <th>Age</th>
+            <th>Department</th>
+            <th>Role</th>
+            <th>Salary</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>EMP01</td>
+                <td>Brijesh Gondaliya</td>
+                <td>29</td>
+                <td rowspan="2">IT</td>
+                <td rowspan="2">Python developer</td>
+                <td>55000</td>
+            </tr>
+            <tr>
+                <td>EMP02</td>
+                <td>pooja sharma</td>
+                <td>25</td>
+                <td>70000</td>
+            </tr>
+            <tr>
+                <td>EMP03</td>
+                <td>Tisha shah</td>
+                <td>28</td>
+                <td>HR</td>
+                <td>Executive team</td>
+                <td>45000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Total salary per month</td>
+                <td>170000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

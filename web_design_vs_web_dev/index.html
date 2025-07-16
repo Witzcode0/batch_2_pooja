@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        li{
+            list-style-type: none;
+        }
+        body{
+            background-color: #fcf8ed;
+        }
+        section{
+            box-shadow: 2px 2px 5px #c82037;
+        }
+        .header{
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 1em 3em;
+            padding: .5em;
+            
+        }
+        .logo > img{
+            height: 70px;
+        }
+        .menus > ul{
+            display: flex;
+        }
+        .menus > ul > li{
+            margin-right: 1em;
+        }
+        .contact_btn > button{
+            padding: 8px;
+            background-color: #c82037;
+            color: white;
+            border: none;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="header">
+            <div class="logo">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <div class="menus">
+                <ul>
+                    <li>Home</li>
+                    <li>Our Vision</li>
+                    <li>Our team</li>
+                    <li>Projects</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="contact_btn">
+                <button>Login/Signup</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

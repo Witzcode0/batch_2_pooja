@@ -1,0 +1,34 @@
+Day - 1
+--------
+CMD, 
+IDE - integrated development env.
+What is software?
+types of software
+
+Day - 2
+---------
+Frontend 
+    - HTML - 
+    - CSS - 
+    - JavaScript - 
+
+html structure
+how to run html file 
+what is tag?
+What is an element in html?
+heading tag
+p, pre tag
+What is attribute?
+comment in html
+
+Day - 3
+meta
+text - formating
+color
+marquee
+anchor
+
+Day - 4
+List
+Table
+Image
