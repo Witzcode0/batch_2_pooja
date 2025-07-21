@@ -32,3 +32,11 @@ Day - 4
 List
 Table
 Image
+
+Day - 5
+blockquote
+favicon
+block and inline
+div
+iframe
+sementic and non sementic
